@@ -1,0 +1,443 @@
+/* @media only screen and (max-width: 540px) {
+    .container{
+        width: 400px;
+        margin: auto;
+    }
+    .top-header {
+        padding: 10px 0;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    .navbar-menus {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo a {
+        padding-top: 10px;
+        display: inline-block;
+    }
+    .menus ul li {
+        padding: 15px 20px;
+    }
+    .banner-content h1 {
+        font-size: 35px;font-weight: 500;
+    }
+    .banner-content p {
+        font-size: 11px;
+        margin-bottom: 16px;
+    }
+    .banner-btn {
+        font-size: 14px;
+    }
+    .features-item-gallery {
+        display: block;
+        text-align: center;
+    }
+    .f-item{
+        margin-bottom: 32px;
+    }
+    .f-category {
+        flex-direction: column;
+    }
+    .fc-item3{
+        background-image: none;
+    }
+    .item-content a{
+        bottom: 0;
+    }
+    .products-header h1 {
+        font-size: 30px;
+    }
+    .product-gallery {
+        margin-top: 42px;
+        display: block;
+    }
+    .product-item {
+        border: 1px solid #eee;
+        text-align: center;
+        padding: 24px 0px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .deal-item h1 {
+        font-size: 30px;
+    }
+    .deal-content {
+        flex-direction: column;
+        background-color: #fff;
+        padding: 50px 30px;
+    }
+    .counter-item span {
+        color: #82AE46;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .counter-item1 {
+        padding-left: 0px !important;
+    }
+    .counter-item p {
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .counter-item {
+        position: relative;
+        padding: 0 18px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .testimonial-header h1 {
+        font-size: 30px;
+    }
+    .brandicon {
+        text-align: center;
+        flex-direction: column;
+    }
+    .brandicon-item a img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .newsletter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter-content p {
+        padding: 0;
+        margin: 20px 0;
+    }
+    .newsletter-btn {
+        margin-top: 20px;
+    }
+    .newsletter-box input {
+        width: 90%;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .social-link ul {
+        margin-top: 30px;
+    }
+    .footer-item {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .footer-item h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .container{
+        width: 850px;
+        margin: auto;
+    }
+    .banner-content h1 {
+        font-size: 80px;
+    }
+    .item-content img {
+        width: 100%;
+        height: 200px;
+    }
+    .item-content a {
+        bottom: 6px;
+    }
+    .item-content1 a {
+        bottom: 7px !important;
+    }
+    .product-gallery {
+        margin-top: 42px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .newsletter-box input {
+        width: 65%;
+        padding: 15px 18px;
+        border: none;
+    }
+    .social-link ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.02);
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        margin-right: 0px;
+    }
+} */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .container{
+        width: 740px;
+        margin: auto;
+    }
+    .banner-content h1 {
+        font-size: 70px;
+    }
+    .item-content {
+        height: 150px;
+    }
+    .item-content a {
+        bottom: 0;
+    }
+    .deal-item2 {
+        flex-basis: 50%;
+        background-color: #fff;
+        padding: 20px;
+    }
+    .product-gallery {
+        margin-top: 42px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .newsletter-box input {
+        width: 59%;
+        padding: 15px 20px;
+        border: none;
+    }
+    .footer-item {
+        width: 100%;
+        color: #000;
+        padding: 0px 20px;
+    }
+    .social-link ul li a i {
+        color: #000;
+        font-size: 18px;
+    }
+    .social-link ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 8px;
+    }
+    .footer-link ul li a {
+        font-size: 14px;
+    }
+    .footer-item p{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .container{
+        width: 450px;
+        margin: auto;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        padding: 5px 0px;
+    }
+    .navbar-menus {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menus ul li {
+        padding: 15px 20px;
+    }
+    .sub-menu {
+        position: absolute;
+        left: -10px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .features-item-gallery {
+        display: block;
+    }
+    .f-item{
+        margin-bottom: 30px;
+    }
+    .f-category {
+        flex-direction: column;
+    }
+    .item-content a {
+        bottom: 0;
+    }
+    .fc-item3 {
+        background-image: none;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .product-gallery {
+        display: block;
+    }
+    .product-item{
+        margin-bottom: 15px;
+    }
+    .deal-item2 {
+        background-color: #fff;
+        padding: 30px 20px;
+    }
+    .testimonial-header h1, .products-header h1, .deal-item2 h1  {
+        font-size: 30px;
+    }
+    .brandicon {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brandicon-item a img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .newsletter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter-content p {
+        padding-right: 0;
+    }
+    .newsletter-box {
+        margin-top: 20px;
+    }
+    .newsletter-btn {
+        margin-top: 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-item{
+        margin-bottom: 30px;
+        padding: 0;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .container{
+        width: 300px;
+        margin: auto;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        padding: 5px 0px;
+    }
+    .navbar-menus {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menus ul li {
+        padding: 15px 20px;
+    }
+    .sub-menu {
+        position: absolute;
+        left: -10px;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .features-item-gallery {
+        display: block;
+    }
+    .f-item{
+        margin-bottom: 30px;
+    }
+    .f-category {
+        flex-direction: column;
+    }
+    .item-content {
+        height: 200px;
+    }
+    .item-content a {
+        bottom: 0;
+    }
+    .fc-item3 {
+        background-image: none;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .product-gallery {
+        display: block;
+    }
+    .product-item{
+        margin-bottom: 15px;
+    }
+    .deal-counter {
+        display: none;
+    }
+    .deal-item2 {
+        background-color: #fff;
+        padding: 30px 20px;
+    }
+    .testimonial-header h1, .products-header h1, .deal-item2 h1  {
+        font-size: 22px;
+    }
+    .brandicon {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brandicon-item a img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .newsletter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .newsletter-content p {
+        padding-right: 0;
+    }
+    .newsletter-box {
+        margin-top: 20px;
+    }
+    .newsletter-btn {
+        margin-top: 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-item{
+        margin-bottom: 30px;
+        padding: 0;
+    }
+  }
